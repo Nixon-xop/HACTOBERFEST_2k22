@@ -143,4 +143,15 @@ export const profiles = [
     cardGithub: "https://github.com/Prakharsharma2206",
     cardWebsite: "https://prakharsharma.software",
   },
+  {
+    cardImgSrc: "./Images/Disha1.jpg",
+    cardName: "Disha Singh",
+    cardCollege: "Maharaja Agrasen Institute of Technology",
+    cardYear: "4th Year",
+    cardBranch: "Computer Networking",
+    cardTwitter: " ",
+    cardLinkedin: "https://www.linkedin.com/in/disha571",
+    cardGithub: "https://github.com/disha571",
+    cardWebsite: " ",
+  },
 ];
