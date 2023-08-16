@@ -132,4 +132,15 @@ export const profiles = [
     cardGithub: "https://github.com/tanmay-S12",
     cardWebsite: "",
   },
+  {
+    cardImgSrc: "./Images/Prakhar1.jpg",
+    cardName: "Prakhar Sharma",
+    cardCollege: "MaharajaAgrasen Institute of Technology",
+    cardYear: "4th Year",
+    cardBranch: "Computer Networking",
+    cardTwitter: "https://twitter.com/prakhar_2206",
+    cardLinkedin: "https://www.linkedin.com/in/prakhar-sharma-2206",
+    cardGithub: "https://github.com/Prakharsharma2206",
+    cardWebsite: "https://prakharsharma.software",
+  },
 ];
