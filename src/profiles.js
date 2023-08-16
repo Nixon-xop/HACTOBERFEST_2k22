@@ -132,4 +132,16 @@ export const profiles = [
     cardGithub: "https://github.com/tanmay-S12",
     cardWebsite: "",
   },
+  {
+    cardImgSrc: "./Images/dishaS.jpg",
+    cardName: "Disha Singh",
+    cardCollege: "Hindustan Engineering College",
+    cardYear: "3rd Year",
+    cardBranch: "Information Technology",
+    cardTwitter: "https://twitter.com/disha2l1",
+    cardLinkedin: "",
+    cardGithub: "https://github.com/disha571",
+    cardWebsite: "",
+  },
+  
 ];
