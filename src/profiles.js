@@ -143,4 +143,15 @@ export const profiles = [
     cardGithub: "https://github.com/Prakharsharma2206",
     cardWebsite: "https://prakharsharma.software",
   },
+  {
+    cardImgSrc: "./Images/Ranjeet1.jpg",
+    cardName: "Ranjeet Hambire",
+    cardCollege: "Modern Collage Of Engineering",
+    cardYear: "4th Year",
+    cardBranch: "Electrical Engineering",
+    cardTwitter: "",
+    cardLinkedin: "https://www.linkedin.com/in/ranjeet-hambire/?originalSubdomain=in",
+    cardGithub: "https://github.com/RanjeetHambire",
+    cardWebsite: "",
+  },
 ];
