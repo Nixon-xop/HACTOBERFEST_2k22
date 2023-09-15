@@ -1,3 +1,4 @@
+
 .App {
     background-color: #adc4fc;
     min-height: 100vh;
@@ -8,7 +9,7 @@
     background: linear-gradient(to right, #3471ff, #4d8eff);
     display: flex;
     justify-content: center;
-    font-size: 1.8rem; /* Adjust the font size as needed */
+    font-size: 1.8rem; 
     color: white;
     padding: 2rem 0;
     margin-bottom: 50px;
@@ -24,10 +25,11 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 20px; /* Add padding for spacing inside the card */
+    padding: 20px; 
     border-radius: 15px;
     background-color: #dce6fc;
-    max-width: 800px; /* Limit the maximum width of the card */
+    max-width: 800px;
+    transition: transform 0.3s ease; 
 }
 
 .Card:hover {
@@ -40,14 +42,13 @@
     border-radius: 15px;
 }
 
-
 .Right-Section {
-    font-size: 1rem; /* Adjust as needed */
-    padding: 20px; /* Add padding for spacing inside the section */
-    width: 67%; /* Adjust the width accordingly */
+    font-size: 1rem;
+    padding: 20px; 
+    width: 67%; 
     display: flex;
     flex-direction: column;
-    line-height: 1.5; /* Adjust line height for better readability */
+    line-height: 1.5; 
 }
 
 .profile-image {
@@ -69,13 +70,14 @@
     align-items: center;
     justify-content: center;
     gap: 20px;
-    margin: 0 auto 2% auto; /* Center horizontally and add space at the bottom */
+    margin: 0 auto 2% auto; 
 }
-
 
 a {
     color: #282c34;
 }
+
+/* Responsive Styles */
 
 @media screen and (max-width: 1200px) {
     .Card {
@@ -87,8 +89,8 @@ a {
     .Card {
         width: 80vw;
         flex-direction: column;
-        padding: 20px; /* Add padding for spacing inside the card */
-        text-align: center; /* Center content within the card */
+        padding: 20px; 
+        text-align: center; 
     }
 
     .Left-Section {
@@ -97,12 +99,20 @@ a {
 
     .Right-Section {
         width: 100%;
-        text-align: center; /* Center text content */
-        padding: 20px; /* Add padding for spacing inside the section */
-    }
-    .App-header {
-        font-size: 1.5rem; /* Adjust font size for smaller screens */
-        padding: 10px; /* Adjust padding if needed */
+        text-align: center; 
+        padding: 20px;
     }
 
+    .App-header {
+        font-size: 1.5rem;
+        padding: 10px; 
+    }
+
+    .profile-image {
+        margin: 20px auto; 
+    }
+
+    .icons {
+        gap: 10px; 
+    }
 }
