@@ -5,16 +5,12 @@
 
 .App-header {
     text-align: center;
-    background-color: #3471ff;
+    background: linear-gradient(to right, #3471ff, #4d8eff);
     display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    align-items: center;
     justify-content: center;
-    font-size: calc(10px + 2vmin);
+    font-size: 1.8rem; /* Adjust the font size as needed */
     color: white;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding: 2rem 0;
     margin-bottom: 50px;
 }
 
@@ -26,14 +22,12 @@
 .Card {
     margin: 30px auto;
     display: flex;
-    flex-direction: row;
     align-items: center;
     justify-content: center;
-
-    /*border: 1px solid #282c34;*/
+    padding: 20px; /* Add padding for spacing inside the card */
     border-radius: 15px;
     background-color: #dce6fc;
-    width: 60vw;
+    max-width: 800px; /* Limit the maximum width of the card */
 }
 
 .Card:hover {
@@ -41,23 +35,19 @@
 }
 
 .Left-Section {
-    background-image: linear-gradient(
-        #3471ff 0%,
-        #3471ff 50%,
-        rgb(220, 218, 218) 51%,
-        rgb(202, 200, 200) 100%
-    );
+    background-image: linear-gradient(to bottom, #3471ff, rgb(202, 200, 200));
     width: 33%;
     border-radius: 15px;
 }
 
+
 .Right-Section {
-    font-size: 20px;
-    padding-left: 20px;
-    width: 70%;
+    font-size: 1rem; /* Adjust as needed */
+    padding: 20px; /* Add padding for spacing inside the section */
+    width: 67%; /* Adjust the width accordingly */
     display: flex;
     flex-direction: column;
-    line-height: 30px;
+    line-height: 1.5; /* Adjust line height for better readability */
 }
 
 .profile-image {
@@ -79,8 +69,9 @@
     align-items: center;
     justify-content: center;
     gap: 20px;
-    margin: 0px 17% 2% 17%;
+    margin: 0 auto 2% auto; /* Center horizontally and add space at the bottom */
 }
+
 
 a {
     color: #282c34;
@@ -93,13 +84,11 @@ a {
 }
 
 @media screen and (max-width: 950px) {
-    .App-body {
-        flex-direction: column;
-        text-align: center;
-    }
     .Card {
         width: 80vw;
         flex-direction: column;
+        padding: 20px; /* Add padding for spacing inside the card */
+        text-align: center; /* Center content within the card */
     }
 
     .Left-Section {
@@ -107,13 +96,13 @@ a {
     }
 
     .Right-Section {
-        /* width: 100%; */
-    }
-
-    .Social {
-        justify-content: center;
+        width: 100%;
+        text-align: center; /* Center text content */
+        padding: 20px; /* Add padding for spacing inside the section */
     }
     .App-header {
-
+        font-size: 1.5rem; /* Adjust font size for smaller screens */
+        padding: 10px; /* Adjust padding if needed */
     }
+
 }
