@@ -1,3 +1,4 @@
+
 .App {
     background-color: #adc4fc;
     min-height: 100vh;
@@ -5,16 +6,12 @@
 
 .App-header {
     text-align: center;
-    background-color: #3471ff;
+    background: linear-gradient(to right, #3471ff, #4d8eff);
     display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    align-items: center;
     justify-content: center;
-    font-size: calc(10px + 2vmin);
+    font-size: 1.8rem; 
     color: white;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding: 2rem 0;
     margin-bottom: 50px;
 }
 
@@ -26,14 +23,13 @@
 .Card {
     margin: 30px auto;
     display: flex;
-    flex-direction: row;
     align-items: center;
     justify-content: center;
-
-    /*border: 1px solid #282c34;*/
+    padding: 20px; 
     border-radius: 15px;
     background-color: #dce6fc;
-    width: 60vw;
+    max-width: 800px;
+    transition: transform 0.3s ease; 
 }
 
 .Card:hover {
@@ -41,23 +37,18 @@
 }
 
 .Left-Section {
-    background-image: linear-gradient(
-        #3471ff 0%,
-        #3471ff 50%,
-        rgb(220, 218, 218) 51%,
-        rgb(202, 200, 200) 100%
-    );
+    background-image: linear-gradient(to bottom, #3471ff, rgb(202, 200, 200));
     width: 33%;
     border-radius: 15px;
 }
 
 .Right-Section {
-    font-size: 20px;
-    padding-left: 20px;
-    width: 70%;
+    font-size: 1rem;
+    padding: 20px; 
+    width: 67%; 
     display: flex;
     flex-direction: column;
-    line-height: 30px;
+    line-height: 1.5; 
 }
 
 .profile-image {
@@ -79,12 +70,14 @@
     align-items: center;
     justify-content: center;
     gap: 20px;
-    margin: 0px 17% 2% 17%;
+    margin: 0 auto 2% auto; 
 }
 
 a {
     color: #282c34;
 }
+
+/* Responsive Styles */
 
 @media screen and (max-width: 1200px) {
     .Card {
@@ -93,13 +86,11 @@ a {
 }
 
 @media screen and (max-width: 950px) {
-    .App-body {
-        flex-direction: column;
-        text-align: center;
-    }
     .Card {
         width: 80vw;
         flex-direction: column;
+        padding: 20px; 
+        text-align: center; 
     }
 
     .Left-Section {
@@ -107,13 +98,21 @@ a {
     }
 
     .Right-Section {
-        /* width: 100%; */
+        width: 100%;
+        text-align: center; 
+        padding: 20px;
     }
 
-    .Social {
-        justify-content: center;
-    }
     .App-header {
+        font-size: 1.5rem;
+        padding: 10px; 
+    }
 
+    .profile-image {
+        margin: 20px auto; 
+    }
+
+    .icons {
+        gap: 10px; 
     }
 }
